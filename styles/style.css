@@ -241,3 +241,45 @@ body {
 .recent-item-reverse {
     flex-direction: row-reverse;
 }
+
+
+/*  Donate Today section css */
+#donate .section-title, #donate .description {
+    text-align: center;
+}
+.donation-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 32px 0;
+}
+.donation-card {
+    padding: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0ECC;
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    transition: all ease-in-out 0.3s;
+}
+.donation-card:hover, .donation-card.active {
+    background: #C6E4D6;
+}
+.donation-input input {
+    width: 100%;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0E0E0E4D;
+    background: #fff;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 8px;
+    text-align: center;
+    outline: none;
+}
+.donate-btn {
+    text-align: center;
+    margin-top: 30px;
+}
