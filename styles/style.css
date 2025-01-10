@@ -283,3 +283,72 @@ body {
     text-align: center;
     margin-top: 30px;
 }
+
+
+/*  Newsletter Section  css     */
+#newsletter .container {
+    background: #C6E4D6;
+    border-radius: 25px;
+    margin: 80px auto;
+    padding: 80px 100px;
+}
+.newsletter-content {
+    width: 750px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.newsletter-content p {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #0E0E0EB3;
+}
+.newsletter-content .section-title {
+    margin-bottom: 16px;
+}
+.newsletter-form {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.newsletter-form form {
+    display: flex;
+    width: 100%;
+}
+.newsletter-form input {
+    width: 90%;
+    padding: 18px 40px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #0E0E0E4D;
+    border-radius: 8px 0 0 8px;
+    border: none;
+    outline: none;
+}
+.newsletter-form button {
+    border-radius: 0 8px 8px 0;
+}
+
+
+/* Footer section css */
+footer {
+    background: #fff;
+}
+footer .container {
+    padding: 50px 0;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.social-icons ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.social-icons ul li img {
+    width: 25px;
+}
